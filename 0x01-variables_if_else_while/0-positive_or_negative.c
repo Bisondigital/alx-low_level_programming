@@ -4,13 +4,14 @@
 
 /**
 *main -> assign a rando number to the variable n each time it is executed
-*based a condition
-*Return : always 0
+*and print the last digit of the number stored in variable n
+*Return : always 0 (sucess)
 */
 int main(void)
 {
+int n;
 
-scrand(time(0));
+srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
 printf("%d is positive\n" , n);
