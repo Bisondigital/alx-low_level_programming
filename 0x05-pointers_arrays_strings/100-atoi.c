@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
 * _strlen - get len
@@ -84,7 +85,7 @@ for (i = digit; i < (digit + _digits); i++) /* calculate num */
 num += (s[i] - '0') * t;
 t /= 10;
 }
-return (num *sign);
+(return (num *sign);
 }
-return (num *sign);
+return (num *sign))
 }
