@@ -19,5 +19,5 @@ if (i == n - 1)
 continue;
 printf(", ");
 }
-_printf("\n");
+printf("\n");
 }
