@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
-* _srtcat - this is a fuction that concatenates two strings
+* *_srtcat - this is a fuction that concatenates two strings
 * @dest: first param
 * @src: second param
 * Return: a string
