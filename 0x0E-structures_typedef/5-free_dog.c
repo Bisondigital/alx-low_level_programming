@@ -6,10 +6,10 @@
 *
 *Return: void.
 */
-void free _dog(dog_t *d)
+void free_dog(dog_t *d)
 {
 if (d == 0)
-return;
+ireturn;
 free(d->name);
 free(d->owner);
 free(d);
