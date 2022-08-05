@@ -15,7 +15,7 @@ if (array && size > 0 && action)
 {
 for (i = 0; i < size; i++)
 {
-action (array[i]);
+action(array[i]);
 }
 }
 }
